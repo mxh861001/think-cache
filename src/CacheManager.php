@@ -8,6 +8,8 @@ use DateInterval;
 use DateTimeInterface;
 use Psr\SimpleCache\CacheInterface;
 use think\helper\Arr;
+use ThinkCache\cache\Driver;
+use ThinkCache\cache\TagSet;
 
 /**
  * Class CacheManager
